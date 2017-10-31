@@ -1,0 +1,7 @@
+netsh interface ipv4 show interfaces
+
+Get-NetAdapter -physical | where status -eq UP
+
+ 
+ $computerName=hostname 
+ write-host "Test has done on $computerName"
